@@ -1,7 +1,7 @@
 package problem.problem141;
 
 /**
- * Definition for singly-linked list. 两个指针，追逐。 还可以用set，遍历，判断是否重复
+ * Definition for singly-linked list. 判断链表是否成环
  * class ListNode {
  *     int val;
  *     ListNode next;
@@ -10,6 +10,10 @@ package problem.problem141;
  *         next = null;
  *     }
  * }
+ */
+
+/**
+ * 解题思路：两个指针，追逐。 还可以用set，遍历，判断是否重复
  */
 public class Solution {
     public boolean hasCycle(ListNode head) {
