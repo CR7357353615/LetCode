@@ -12,6 +12,10 @@ package problem.problem19;
  *     ListNode(int x) { val = x; }
  * }
  */
+
+/**
+ * 解题思路：在头节点前设置哨兵节点，然后设置两个相隔n的指针，一起向尾节点移动，然后执行删除
+ */
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         if (null == head) {
